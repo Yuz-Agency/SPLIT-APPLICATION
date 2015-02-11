@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <!-- <meta name="msapplication-tap-highlight" content="no" /> -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+
+        <link rel="stylesheet" type="text/css" href="css/styles1.css" />
+        <title>Split</title>
+
+        <!--Google map-->
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCScRJ42M2v5ze8AQbvLykw-_wmvtp-2jg"></script>
+
+
+
+
+    </head>
+    <body>
+        
+        <!--MAIN-->
+        <div id="main">
+            <!--NAV-->
+            <nav>
+                <a id="navh"class="logo_split" href="#"><img src="img/nav/nav_split.png" alt=""></a>
+                <ul>
+                    <li id="navj"><a class="nav_journal"></a></li>
+                    <li id="navm"><a class="nav_message"></a></li>
+                    <li id="navp"><a class="nav_profile"></a></li>
+                </ul>
+            </nav>
+            <!--FIN NAV-->
+
+            <div id="view">
+
+
+
+                <!-- PAGE D'ACCUEIL -->
+
+
+                <!--ACCUEIL-->
+                <div id="home" class="panel ho">
+
+                    <!--BOUTONS-->
+                    <div class="button">
+                        <a href="#"><img src="img/nav/nav_deposer.png" alt=""><br><span>Déposer</span><br>offre</a>
+                        <a href="#"><img src="img/nav/nav_recherche.png" alt=""><br><span>Rechercher</span><br>offre</a>
+                    </div>
+                    <!--FIN BOUTONS-->
+
+                    <!--MAP-->
+                    <a href="map.html"><div id="map"></div></a>
+                    <!--FIN MAP-->
+
+                    <!--FIL ACTUALITÉ-->
+                    <div id="fil_actu">
+
+                        <!--OFFRE ou RECHERCHE-->
+                        <ul>
+                            <a href="">
+                                <li id="ad-">
+                                    <div class="logo_product"><img src="" alt=""></div>
+                                    <div class="ref_product"><!--insérer tout--></div>
+                                    <div class="price_product"><!--insérer prix--></div>
+                                </li>
+                            </a>
+                        </ul>
+                        <!--FIN OFFRE ou RECHERCHE-->
+
+                    </div>
+                    <!--FIN FIL ACTUALITÉ-->
+
+                </div>
+                <!--FIN ACCUEIL-->
+
+
+
+
+
+                <!-- PAGE DU JOURNAL -->
+
+                <!--JOURNAL-->
+                <div id="journal" class="panel jour">
+
+                    <!--CORPS DE LA PAGE-->
+                    <div class="type_recherche">JE GERE MES ANNONCES</div>
+                        <!--UNE ANNONCE-->
+                        <li class="annonce">
+                            <div class="logo"></div>
+                            <div class="caracteristique"></div>
+                            <a href=""><div class="message"></div></a>
+                            <a href=""><div class="modification"></div></a>
+                            </a><div class="supprimer"></div>
+        
+                         </li>
+                    <!--FIN CORPS DE LA PAGE-->
+                </div>
+
+                <!--FIN JOURNAL-->
+
+
+
+
+                 <!-- PAGE DU MESSAGERIE -->
+
+                <!--MESSAGERIE-->
+                <div id="message" class="panel mess">
+                        <h1>ICI MESSAGERIE</h1>
+                   
+
+                </div>
+
+                <!--FIN MESSAGERIE-->
+
+
+
+                 <!-- PAGE DU PROFILE -->
+
+                <!--JOURNAL-->
+                <div id="profile" class="panel pro">
+                    <!-- Bandeau avec titre de la section et modifification du profil et deconnection -->
+                    <div class="bandeau">
+                        <span class="text">MON PROFIL</span>
+                    </div>
+
+                    <div class="info">
+                        <img src="img/photo.png" width="128" height="128" class="photo">
+                        <span class="nom">Jean Jass</span>
+                    </div>
+
+                    <!-- Note globale -->
+
+                    <div class="note">
+                        <span class="text1"> MA NOTE GLOBALE</span>
+                    </div>
+
+                    <!-- Les étoiles -->
+                    <div class="etoile">
+                        <img src="img/etoiles.png" width="232">
+                    </div>
+                    
+                </div>
+
+                <!--FIN PROFILE-->
+
+
+
+            </div>
+        </div>
+
+        <!-- <script type="text/javascript" src="js/jquery.js"></script>-->
+        <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript" src="js/hammer.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>

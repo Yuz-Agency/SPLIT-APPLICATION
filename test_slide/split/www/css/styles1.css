@@ -1,0 +1,706 @@
+input {
+	border: none;
+}
+
+	/*En tête menu*/
+
+.tete {
+	width: 100%;
+	height: 58px;
+	background-color: #e84a49;
+}
+
+.split_logo {
+	float: left;
+	width: 55px;
+	height: 35px;
+	margin-left: 15px;
+	margin-top: 12px;
+}
+
+/*Bandeau avec titre de la section et modifification du profil et deconnection*/
+
+.bandeau {
+	width: 98%;
+	height: 56px;
+	background-color: #999999;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+}
+
+.text {
+	display: block;
+	text-align: center;
+	color: #FFF;
+	font-size: 1.4em;
+	padding-top: 10px;
+}
+
+/*Photo de profil*/
+
+.photo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+/*nom et prenom du profil*/
+
+.nom {
+	width: 128px;
+	height: 33px;
+	background-color: #ff9501;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	color: #FFF;
+	font-size: 1.2em;
+	text-align: center;
+	padding-top: 5px;
+}
+
+/*note globale*/
+
+.note {
+	width: 100%;
+	height: 58px;
+	background-color: #e84a49;
+	margin-top: 16px;
+}
+
+.text1 {
+	display: block;
+	text-align: center;
+	color: #FFF;
+	font-size: 1.4em;
+	padding-top: 12px;
+}
+
+.etoile {
+	width: 100%;
+	height: 60px;
+	background-color: #FFF;
+}
+
+.etoile img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 12px;
+}
+
+/*Modification de mon profil*/
+
+.paperasse {
+	display: block;
+	width: 98%;
+	height: 45px;
+	background-color: #e84a49;
+	text-align: center;
+	padding-top: 25px;
+	margin-right: auto;
+	margin-left: auto;
+	text-decoration: none;
+	color: #FFF;
+	margin-top: 10px;
+}
+
+.modifier {
+	width: 128px;
+	height: 33px;
+	background-color: #999999;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 0.9em;
+	margin-bottom: 10px;
+}
+
+.information {
+	width: 96%;
+	height: 30px;
+	background-color: #FFF;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	padding-top: 10px;
+	padding-left: 15px;
+}
+
+.information img {
+	float: right;
+	margin-right: 10px;
+	display: block;
+	margin-top: -5px;
+}
+
+/*Page d'une annonce*/
+
+.carte {
+	width: 98%;
+	height: 110px;
+	background-color: #000000;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.nom_profil {
+	width: 98%;
+	height: 64px;
+	background-color: #FFF;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 3px;
+}
+
+.nom_profil img {
+	float: left;
+	margin-right: 10px;
+}
+
+.nom_utilisateur {
+	display: block;
+	color: #fe9a9a;
+	font-size: 1.2em;
+	padding-top: 6px;
+	margin-bottom: 5px;
+	
+}
+
+.type_annonce {
+	width: 98%;
+	height: 36px;
+	background-color: #ff999a;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 3px;
+	color: #FFF;
+	text-align: center;
+	font-size: 1.2em;
+	padding-top: 7px;
+
+}
+
+.type_produit {
+	width: 98%;
+	height: 36px;
+	background-color: #FFF;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	color: #000000;
+	text-align: center;
+	font-size: 1.2em;
+	padding-top: 7px;
+
+}
+
+.info {
+	height: 176px;
+	margin-bottom: 65px;
+}
+
+.info_annonce {
+	width: 48.5%;
+	height: 34px;
+	background-color: #ff6666;
+	float: left;
+	margin-left: 1%;
+	margin-top: 3px;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.info_annonce1 {
+	width: 48.5%;
+	height: 34px;
+	background-color: #ff6666;
+	float: right;
+	margin-right: 1%;
+	margin-top: 3px;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.arret_annonce {
+	width: 48.5%;
+	height: 34px;
+	background-color: #FFF;
+	float: left;
+	margin-left: 1%;
+	margin-top: 3px;
+	color: #000000;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.perimetre {
+	width: 48.5%;
+	height: 34px;
+	background-color: #FFF;
+	float: right;
+	margin-right: 1%;
+	margin-top: 3px;
+	color: #000000;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.prix {
+	width: 98%;
+	height: 34px;
+	background-color: #ff6666;
+	float: left;
+	margin-left: 1%;
+	margin-top: 3px;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.prix1 {
+	width: 98%;
+	height: 34px;
+	background-color: #FFF;
+	float: right;
+	margin-right: 1%;
+	margin-top: 3px;
+	color: #000000;
+	text-align: center;
+	padding-top: 10px;
+}
+
+/*-----------Page de Recherche------------*/
+
+.ou {
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.type_recherche {
+	width: 98%;
+	height: 36px;
+	background-color: #ff6666;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 3px;
+	color: #FFF;
+	text-align: center;
+	font-size: 1.2em;
+	padding-top: 7px;
+	text-align: center;
+}
+
+.type_recherche img {
+	float: left;
+	margin-left: 20px;
+	margin-top: 2px;
+}
+
+.categorie {
+	width: 32.666%;
+	height: 200px;
+	background-color: #FFF;
+	display: inline-block;
+}
+
+/*Choix catégorie*/
+
+.selection {
+	background-color: blue!important;
+}
+
+.choix {
+	width: 98%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 3px;
+	text-align: center;
+
+}
+
+.choix a {
+	text-decoration: none;
+}
+
+.choix img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 45px;
+	margin-bottom: 25px;
+}
+
+.nourriture {
+	color: #ff5248;
+}
+
+.boisson {
+	color: #ffce0c;
+}
+
+.autre {
+	color: #fb8c50;
+}
+
+.informatio {
+	height: 100px;
+}
+
+.plus {
+	float: left;
+	margin-left: 25px;
+}
+
+.less {
+	float: right;
+	margin-right: 25px;
+	margin-top: 8px;
+}
+
+/*Choix après nourriture*/
+
+.choix_nourriture {
+	width: 98%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 3px;
+	text-align: center;
+	display: none;
+
+}
+
+.choix_nourriture a {
+	text-decoration: none;
+}
+
+.choix_nourriture img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+
+.categorie_nourriture {
+	width: 32.666%;
+	height: 100px;
+	background-color: #FFF;
+	display: inline-block;
+	margin-bottom: 3px;
+}
+
+
+
+.sous_cat {
+	color: #ff3b30;
+	text-decoration: none;
+}
+
+/*Catégorie pour boisson*/
+
+.choix_boisson {
+	width: 98%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 3px;
+	text-align: center;
+	display: none;
+
+}
+
+.categorie_boisson {
+	width: 49%;
+	height: 200px;
+	background-color: #FFF;
+	display: inline-block;
+	margin-bottom: 3px;
+}
+
+.choix_boisson img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 25px;
+	margin-top: 40px;
+}
+
+.choix_boisson a {
+	text-decoration: none;
+}
+
+.sous_cat_boisson {
+	color: #ffcc00;
+	text-decoration: none;
+}
+
+/*Catégorie de autre*/
+
+.choix_autre {
+	width: 98%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 3px;
+	text-align: center;
+	display: none;
+
+}
+
+.choix_autre img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+
+.choix_autre a {
+	text-decoration: none;
+}
+
+.sous_cat_autre {
+	color: #fa6718;
+	text-decoration: none;
+}
+
+
+/*-----------Page de Depot------------*/
+
+
+
+
+/*Choix catégorie*/
+
+.choix1 {
+	width: 98%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 3px;
+	text-align: center;
+
+}
+
+.categorie1 {
+	width: 32.666%;
+	height: 260px;
+	background-color: #FFF;
+	display: inline-block;
+}
+
+.choix1 a {
+	text-decoration: none;
+}
+
+.choix1 img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 90px;
+	margin-bottom: 25px;
+}
+
+
+/*Choix après nourriture*/
+
+.choix_nourriture1 {
+	width: 98%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 3px;
+	text-align: center;
+	display: none;
+	height: 260px;
+
+}
+
+.choix_nourriture1 a {
+	text-decoration: none;
+}
+
+.choix_nourriture1 img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+
+.categorie_nourriture1 {
+	width: 32.666%;
+	height: 100px;
+	background-color: #FFF;
+	display: inline-block;
+	margin-bottom: 3px;
+}
+
+
+/*Catégorie pour boisson*/
+
+.choix_boisson1 {
+	width: 98%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 3px;
+	text-align: center;
+	display: none;
+	height: 260px;
+
+}
+
+.categorie_boisson1 {
+	width: 49%;
+	height: 200px;
+	background-color: #FFF;
+	display: inline-block;
+	margin-bottom: 3px;
+}
+
+.choix_boisson1 img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 25px;
+	margin-top: 40px;
+}
+
+.choix_boisson1 a {
+	text-decoration: none;
+}
+
+
+/*Catégorie de autre*/
+
+.choix_autre1 {
+	width: 98%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 3px;
+	text-align: center;
+	display: none;
+	height: 260px;
+
+}
+
+.choix_autre1 img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+
+.choix_autre1 a {
+	text-decoration: none;
+}
+
+/*-----------Page de gestion des annoncess------------*/
+
+.annonce {
+	width: 98%;
+	height: 50px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+/*.annonce:nth-child(1) {
+	margin-top: 3px;
+}*/
+
+.logo {
+	width: 50px;
+	height: 50px;
+	margin-right: 0px;
+	background-color: #FFF;
+	display: inline-block;
+	margin-left: 0px;
+}
+
+.caracteristique {
+	width: 42%;
+	height: 50px;
+	margin-right: 0px;
+	background-color: #FFF;
+	display: inline-block;
+	margin-left: 0px;
+}
+
+.message {
+	width: 50px;
+	height: 50px;
+	margin-right: 0px;
+	background-color: #FFF;
+	display: inline-block;
+	margin-left: 0px;
+}
+
+.modification {
+	width: 50px;
+	height: 50px;
+	margin-right: 0px;
+	background-color: #FFF;
+	display: inline-block;
+	margin-left: 0px;
+}
+
+.supprimer {
+	width: 50px;
+	height: 50px;
+	background-color: #FFF;
+	display: inline-block;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+/*Depot d'une recherche*/
+
+.informatio1 {
+	height: 160px;
+}
+
+.info_annonce2 {
+	width: 98%;
+	height: 29px;
+	background-color: #ff6666;
+	float: left;
+	margin-left: 1%;
+	margin-top: 3px;
+	color: #FFF;
+	text-align: center;
+	padding-top: 6px;
+}
+
+.arret_annonce2 {
+	width: 98%;
+	height: 20px;
+	background-color: #FFF;
+	float: left;
+	margin-left: 1%;
+	margin-top: 3px;
+	color: #000000;
+	text-align: center;
+	padding-top: 10px;
+}
