@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, target-densitydpi=medium-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+        <title>Démarrage</title>
+    </head>
+    <body>
+
+    <!-- Page1 -->
+
+    <div class="Page1">
+
+       <img src="img/split_logo.png" class="split_logo">
+
+       <!-- commencez l'aventure -->
+       <a href="" class="decouvrir">JE DECOUVRE !</a>
+       <div class="connecte">JE ME CONNECTE</div>
+
+
+
+      <!-- réseaux sociaux -->
+       <ul class="reseaux">
+         <li class="rs">I</li>
+         <li class="rs">F</li>
+         <li class="rs">T</li>
+       </ul>
+
+     </div>
+
+     <!-- Connexion --> 
+
+     <div class="connexion">
+
+       <img src="img/split_logo.png" class="split_logo">
+
+       <!-- champs connexion -->
+
+       <form id="connex">
+
+       <input class="champs" name="pseudo" id="login" placeholder="Votre Pseudonyme">
+       <input class="champs1" name="mdp" id="pass" placeholder="Votre Mot de passe">
+       <a href="test.html"><input  type="submit" value ="Se connecter" class="connecter"></a>
+
+       </form>
+
+       <!-- Mot de passe perdu -->
+       <div class="mdpp">J'ai perdu mon mot de passe</div>
+
+
+
+       <!-- Lien pour s'inscrire -->
+       <div class="inscription">JE M'INSCRIS !</div>
+
+       
+       </div>
+
+       <!-- Inscription -->
+
+       <div class="page_inscription">
+
+       <img src="img/split_logo.png" class="split_logo_petit">
+
+       <!-- Les champs d'inscription -->
+
+       <form id="formulaire">
+
+      <input type="text" name="nom" id="nom" class="nom" placeholder="Nom">
+      <input type="text" name="prenom"  id="prenom" class="prenom" placeholder="Prénom">
+      <input type="text" name="pseudo" id="pseudo" class="champs_ins" placeholder="Pseudonyme">
+      <input type="password" name="mdp"  id="mdp" class="champs_ins" placeholder="Mot de passe">
+      <input type="password" name="mdp1" id="mdp1" class="champs_ins" placeholder="Confirmer mot de passe">
+      <input type="email" name="mail" id="mail"class="champs_ins" placeholder="Email">
+      <input type="date" name="date_naissance"  id="date_naissance" class="champs_ins" placeholder="Date de naissance">
+
+
+      <!-- <input type="text" name="campus" class="champs_ins" placeholder="Campus"> -->
+
+      <select id="campus" name="campus" class="champs_ins">
+      	<option value="">-- Campus --</option>
+      	
+      </select>
+
+     
+      <div class="homme"><input type="radio" value="Homme" name="sexe"  class="radio sexe"><!-- <img src="img/homme.png"> --><!-- Je suis un homme --></div>
+
+      <div class="femme"><input type="radio" value="Femme" name="sexe" class="radio1 sexe"><!-- <img src="img/femme.png"> --><!-- Je suis une femme --></div>
+
+      <div class="lien_photo"><span class="ligne">Choisissez votre photo de profil<img src="img/appareil.png" height="40"></div>
+
+      <input type="submit" value="Je m'inscris" class="inscription1">
+
+      </form>
+
+
+      
+
+
+      </div>
+
+      <!-- Page Mot de passe perdu -->
+
+      <div class="mdp_perdu">
+
+       <img src="img/split_logo.png" class="split_logo">
+
+        <span class="phrase">Hélas, il y a les pertes de mémoires...</span>
+
+        <input type="email" class="champs" placeholder="Email">
+        <div class="envoie">J'ENVOIE</div>
+
+       
+    </div>
+
+    <!-- Confirmation mot de passe perdu -->
+
+    <div class="confirm_mdp">
+
+       <img src="img/split_logo.png" class="split_logo">
+
+        <span class="phrase">Consultes tes mails, nous t'avons <br>envoyé un Email !</span>
+
+        <div class="retour">REVENIR A LA CONNEXION</div>
+
+        </div>
+
+        <!-- Probleme de mail -->
+
+        <div class="problem_mail">
+
+       <img src="img/split_logo.png" class="split_logo">
+
+        <span class="phrase">Mince ! Nous ne parvenons pas  <br>à retrouver ton Email...</span>
+
+        <a href="" class="retour">REVENIR A LA CONNEXION</a>
+
+       
+    </div>
+
+       
+    </div>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    
+    </body>
+</html>

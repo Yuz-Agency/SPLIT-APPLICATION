@@ -1,0 +1,362 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700);
+
+body {
+	width: 100%;
+	font-family: 'Source Sans Pro';
+	margin: 0;
+	padding: 0;
+	/*background-color: #000000;*/
+	background: url(../img/fond.jpg) center;
+	background-size: cover;
+	-webkit-background-size: cover; /* pour Chrome et Safari */
+	-moz-background-size: cover; /* pour Firefox */
+	-o-background-size: cover; /* pour Opera */
+
+}
+
+input {
+	border: none;
+	color: black;
+    padding-left: 4%;
+    font-family: 'Source Sans Pro';
+}
+
+.selection {
+	background-color: blue!important;
+}
+
+.connexion {
+	display: none;
+}
+
+.page_inscription {
+	display: none;
+}
+
+.mdp_perdu {
+	display: none;
+}
+
+.problem_mail {
+	display: none;
+}
+
+.confirm_mdp {
+	display: none;
+}
+
+.split_logo {
+	width: 60%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 60px;
+}
+
+/*page demmarage*/
+
+.decouvrir {
+	display: block;
+	width: 97%;
+	height: 55px;
+	background-color: #FFF;
+	text-align: center;
+	padding-top: 35px;
+	margin-top: 60px;
+	margin-right: auto;
+	margin-left: auto;
+	text-decoration: none;
+	color: #000000;
+}
+
+.connecte {
+	display: block;
+	width: 97%;
+	height: 55px;
+	background-color: #e84a49;
+	text-align: center;
+	padding-top: 35px;
+	margin-top: 4px;
+	margin-right: auto;
+	margin-left: auto;
+	text-decoration: none;
+	color: #FFF;
+}
+
+/*rs = réseaux sociaux*/
+
+.rs {
+	width: 30px;
+	height: 30px;
+	background-color: #FFF;
+	display: inline-block;
+	text-align: center;
+	margin-right: 20px;
+}
+
+.reseaux {
+	text-align: center;
+	margin-top: 120px;
+}
+
+/*Page connexion*/
+
+.champs {
+	width: 92%;
+	height: 40px;
+	padding-left: 4%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 40px;
+}
+
+.champs1 {
+	width: 92%;
+	height: 40px;
+	padding-left: 4%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 4px;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: black;
+    /*padding-left: 15px;*/
+    font-family: 'Source Sans Pro';
+}
+
+.connecter {
+	display: block;
+	width: 97%;
+	height: 50px;
+	background-color: #ff999a;
+	text-align: center;
+	/*padding-top: 0px;*/
+	margin-top: 4px;
+	margin-right: auto;
+	margin-left: auto;
+	text-decoration: none;
+	color: #FFF;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+
+
+
+.mdpp {
+	display: block;
+	margin-top: 30px;
+	color: #FFF;
+	text-align: center;
+	text-decoration: none;
+}
+
+.inscription {
+	display: block;
+	width: 97%;
+	height: 55px;
+	background-color: #e84a49;
+	text-align: center;
+	padding-top: 35px;
+	margin-right: auto;
+	margin-left: auto;
+	text-decoration: none;
+	color: #FFF;
+	margin-top: 80px;
+}
+
+/*Page inscription*/
+
+.split_logo_petit {
+	width: 30%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+
+.champs_ins {
+	width: 92%;
+	height: 30px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 8px;
+}
+
+.nom {
+	width: 43%;
+	height: 30px;
+	display: block;
+	float: left;
+	margin-left: 1.5%;
+	margin-bottom: 8px;
+}
+
+.prenom {
+	width: 43%;
+	height: 30px;
+	display: block;
+	float: right;
+	margin-right: 1.5%;
+	margin-bottom: 8px;
+}
+
+.radio {
+  width: 100%;
+  height: 80px; 
+  display: block;
+  margin-top: -1px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-appearance: none;
+  background: url(../img/homme.png) no-repeat center;
+}
+
+.radio1 {
+  width: 100%;
+  height: 80px; 
+  display: block;
+  margin-top: -1px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-appearance: none;
+  background: url(../img/femme.png) no-repeat center;
+}
+
+input[type="radio"]:checked {
+  background-color: blue;
+}
+
+
+
+.homme {
+	width: 48%;
+	height: 80px;
+	display: block;
+	float: left;
+	margin-bottom: 8px;
+	background-color: #FFF;
+	margin-left: 1.5%;
+	text-align: center;
+	font-size: 0.9em;
+}
+
+.homme img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 8px;
+	margin-bottom: 10px;
+}
+
+.femme {
+	width: 48%;
+	height: 80px;
+	display: block;
+	float: right;
+	margin-bottom: 8px;
+	background-color: #FFF;
+	margin-right: 1.5%;
+	text-align: center;
+	font-size: 0.9em;
+	clip: rect(0 0 0 0);
+}
+
+
+
+.femme img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 8px;
+	margin-bottom: 10px;
+}
+
+.ligne {
+	margin-top: 20px;
+}
+
+.lien_photo {
+	width: 97%;
+	height: 30px;
+	display: block;
+	float: right;
+	margin-bottom: 10px;
+	background-color: #FFF;
+	margin-right: 1.5%;
+	margin-left: 1.5%;
+	font-size: 0.9em;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.lien_photo img {
+	float: right;
+	margin-top: -10px;
+}
+
+.inscription1 {
+	display: block;
+	width: 97%;
+	height: 80px;
+	font-size: 1.2em;
+	background-color: #e84a49;
+	text-align: center;
+	/*padding-top: 10px;*/
+	margin-right: auto;
+	margin-left: auto;
+	text-decoration: none;
+	color: #FFF;
+	margin-top: 140px;
+}
+
+/*.erreur {
+	border: 2px solid red;
+}*/
+
+
+
+/*Page mot de passe perdu*/
+
+.phrase {
+	color: #FFF;
+	display: block;
+	text-align: center;
+	margin-top: 50px;
+	font-size: 1.4em;
+}
+
+.envoie {
+	display: block;
+	width: 97%;
+	height: 40px;
+	background-color: #e84a49;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: 4px;
+	margin-right: auto;
+	margin-left: auto;
+	text-decoration: none;
+	color: #FFF;
+}
+
+/*Page confirmation du mot de passe*/
+
+.retour {
+	display: block;
+	width: 97%;
+	height: 40px;
+	background-color: #e84a49;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	text-decoration: none;
+	color: #FFF;
+}
+
